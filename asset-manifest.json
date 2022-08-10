@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/crypto-ui/static/css/main.67ffc5f8.css",
-    "main.js": "/crypto-ui/static/js/main.45b678c8.js",
+    "main.js": "/crypto-ui/static/js/main.8e4f181d.js",
     "static/media/nft.webp": "/crypto-ui/static/media/nft.89d468e3ffd2f0ef9a34.webp",
-    "static/media/opensea.svg": "/crypto-ui/static/media/opensea.6706f228d11b4351144c707e387cef80.svg",
+    "static/media/SoundView.jpeg": "/crypto-ui/static/media/SoundView.a2f877fd5bd3d27d09f0.jpeg",
     "index.html": "/crypto-ui/index.html",
     "main.67ffc5f8.css.map": "/crypto-ui/static/css/main.67ffc5f8.css.map",
-    "main.45b678c8.js.map": "/crypto-ui/static/js/main.45b678c8.js.map"
+    "main.8e4f181d.js.map": "/crypto-ui/static/js/main.8e4f181d.js.map"
   },
   "entrypoints": [
     "static/css/main.67ffc5f8.css",
-    "static/js/main.45b678c8.js"
+    "static/js/main.8e4f181d.js"
   ]
 }
