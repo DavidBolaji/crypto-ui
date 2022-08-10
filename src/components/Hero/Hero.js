@@ -1,9 +1,9 @@
 import { Box, Button, Image, Stack, Text } from '@chakra-ui/react'
-import NFT from '../../assets/img/nft.webp'
+
 import React from 'react'
 
 import Container from '../Container/Container'
-import Airbnb from '../Airbnb/Airbnb'
+
 
 const Hero = () => {
     return (
@@ -46,7 +46,7 @@ const Hero = () => {
                             maxWidth={'400px'}
                             mx={{ base: 'auto', sm: 'auto', md: 'auto', lg: '0px' }}
                             mb={'20px'}
-                        >OpenSea is the world's first and largest NFT marketplace</Text>
+                        >SoundView is the world's first and largest NFT marketplace</Text>
                     </Box>
                     <Box>
                         <Stack direction={'row'} spacing={4}

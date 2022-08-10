@@ -1,5 +1,4 @@
-import { Badge, Box, Button, Image, transition } from '@chakra-ui/react'
-import NFT from '../../assets/img/nft.webp'
+import { Badge, Box, Button, Image } from '@chakra-ui/react'
 import React from 'react'
 
 const Airbnb = ({ style, id, img, artist, price, label, ref, showBtn }) => {
@@ -35,7 +34,6 @@ const Airbnb = ({ style, id, img, artist, price, label, ref, showBtn }) => {
                     fontWeight={'black'}
                     mt={'10px'}
                     width={'100%'}
-                    // bg="red"
                     display={'flex'}
                     justifyContent={'flex-end'}
 

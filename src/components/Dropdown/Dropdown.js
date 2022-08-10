@@ -1,4 +1,4 @@
-import { Box, Button, Lorem, Flex } from '@chakra-ui/react'
+import { Box, Button, Flex } from '@chakra-ui/react'
 import React from 'react'
 
 const Dropdown = () => {
@@ -35,7 +35,7 @@ const Dropdown = () => {
                 fontSize={'18px'}
             >
                 <Box>About</Box>
-                <Box>opensea</Box>
+                <Box>SoundView</Box>
                 <Box>FAQ</Box>
             </Box>
             <Box

@@ -1,5 +1,5 @@
-import { Box, Button, Collapse, Image, Input, InputGroup, InputLeftElement, Slide, Stack, useDisclosure } from '@chakra-ui/react'
-import Logo from '../../assets/img/opensea.svg'
+import { Box, Button, Image, Input, InputGroup, InputLeftElement, Slide, Stack, Text, useDisclosure } from '@chakra-ui/react'
+import Logo from '../../assets/img/SoundView.jpeg'
 import React, { useEffect, useState } from 'react'
 import { Search2Icon } from '@chakra-ui/icons'
 import { MdOutlineAccountBalanceWallet } from "react-icons/md";
@@ -26,8 +26,11 @@ const DesktopView = () => {
     >
         <Box
             flex={'0.12'}
+            display={'flex'}
+            alignItems={'flex-end'}
         >
             <Image src={Logo} alt='Logo' w='40px' />
+            <Text as="span" fontWeight={'black'} fontSize={'12px'} ml={'5px'} color={'#163d7d'} fontFamily={'cursive'}>SoundView</Text>
 
         </Box>
         <Box
@@ -91,8 +94,10 @@ const MobileView = () => {
         zIndex={"10"}
 
     >
-        <Box flex={'0.85'} >
+        <Box flex={'0.85'} display={'flex'}
+            alignItems={'flex-end'}>
             <Image src={Logo} alt='Logo' w='40px' />
+            <Text as="span" fontWeight={'black'} fontSize={'12px'} ml={'5px'} color={'#163d7d'}>SoundView</Text>
         </Box>
 
         <Box flex={'0.15'} >

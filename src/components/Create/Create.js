@@ -8,7 +8,7 @@ const datas = [
         id: 1,
         image: <MdOutlineAccountBalanceWallet fontSize={'40px'} style={{ color: 'blue' }} />,
         heading: 'Set up your wallet',
-        para: 'Once you’ve set up your wallet of choice, connect it to OpenSea by clicking the wallet icon in the top right corner. Learn about the wallets we support.'
+        para: 'Once you’ve set up your wallet of choice, connect it to SoundView by clicking the wallet icon in the top right corner. Learn about the wallets we support.'
     },
     {
         id: 2,

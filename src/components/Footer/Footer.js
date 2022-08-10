@@ -4,14 +4,11 @@ import {
     Flex,
     List,
     ListItem,
-    ListIcon,
-    OrderedList,
-    UnorderedList,
     Link,
     Text,
     Image
 } from "@chakra-ui/react";
-import Logo from '../../assets/img/opensea.svg'
+import Logo from '../../assets/img/SoundView.jpeg'
 
 
 
@@ -183,7 +180,7 @@ const Footer = () => {
             >
                 <Image src={Logo} alt={'logo'} w="20px" />
                 <Text color="gray.600" fontSize="0.875rem" pl="0.5rem">
-                    &copy; 2019 opensea, Inc. All rights reserved.
+                    &copy; 2019 SoundView, Inc. All rights reserved.
                 </Text>
             </Flex>
         </Box>

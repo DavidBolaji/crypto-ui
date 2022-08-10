@@ -1,9 +1,7 @@
 import { Box, Button, Stack, Text } from '@chakra-ui/react'
 import React, { useRef } from 'react'
 import Airbnb from '../Airbnb/Airbnb'
-import { useToast, ToastId } from "@chakra-ui/toast";
 import NFT from '../../assets/img/nft.webp'
-import { IoMdArrowDropleft } from "react-icons/io";
 import { AiOutlineCaretRight, AiFillCaretLeft } from "react-icons/ai";
 
 
